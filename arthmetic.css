@@ -1,0 +1,32 @@
+body {
+
+    background: linear-gradient(to bottom right, #ff6f61, #ab47bc);
+
+    background-attachment: fixed;
+
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+input, button, h4 {
+    margin: 5px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background: linear-gradient(to bottom right, #ff6f61, #ab47bc);
+    }
+
+    input, button, h4 {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
